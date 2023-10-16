@@ -4,6 +4,7 @@ interface GrupoMusical {
     activo: boolean;
     genero: string;
 }
+const estilos = "background-color: green; font-weigth: bold";
 
 const grupo1: GrupoMusical= {
     nombredelgrupo: "The Beatles",
@@ -40,9 +41,14 @@ const grupo5: GrupoMusical= {
     genero: "🎸 Rock",
 };
 
+console.log (`%c ${grupo1.nombredelgrupo}`, estilos) 
 console.log (grupo1)
+console.log (`%c ${grupo2.nombredelgrupo}`, estilos) 
 console.log (grupo2)
+console.log (`%c ${grupo3.nombredelgrupo}`, estilos) 
 console.log (grupo3)
+console.log (`%c ${grupo4.nombredelgrupo}`, estilos) 
 console.log (grupo4)
+console.log (`%c ${grupo5.nombredelgrupo}`, estilos) 
 console.log (grupo5)
 
