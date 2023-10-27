@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+#app{
+    display: flex;
+    flex-direction: column;
+}
+button {
+    background-color: #064789;
+    color: white;
+    padding: 8px;
+}
+.contenedosDos {
+     margin: 8px;
+}
